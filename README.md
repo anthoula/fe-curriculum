@@ -3,6 +3,8 @@ Stay sharp with front end skills by defining a curriculum to follow
 
 
 ## ~/.bash_profile settings
+
+Show git branch in CLI
 ```bash
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
