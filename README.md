@@ -17,3 +17,8 @@ Create aliases in `.bash_profile` to assign shortcuts for common Terminal comman
 ```bash
 alias magento="bash m-bin-magento"
 ```
+
+Refresh your changes:
+```bash
+source ~/.bash_profile
+```
